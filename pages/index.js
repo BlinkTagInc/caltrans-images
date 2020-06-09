@@ -7,7 +7,7 @@ export default function Index() {
       </p>
 
       <div>
-        <img src="https://caltrans.blinktag.com/data/d4/cctv/image/tvd32i80baybridgesastowereast/tvd32i80baybridgesastowereast.jpg" />
+        <img src="https://caltrans.blinktag.com/api/data/d4/cctv/image/tvd32i80baybridgesastowereast/tvd32i80baybridgesastowereast.jpg" />
       </div>
 
       <p>For example, to request the image:</p>

@@ -20,7 +20,7 @@ export default async function handler(req, res) {
 
   const caltransBaseUrl = 'http://cwwp2.dot.ca.gov/';
 
-  res.setHeader('content-disposition', `attachment; filename=${slug[slug.length - 1]}`);
+  res.setHeader('content-type', 'image/jpeg')
 
   request
     .get(`${caltransBaseUrl}/${path.join(...slug)}`)
